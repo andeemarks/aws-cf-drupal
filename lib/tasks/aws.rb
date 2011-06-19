@@ -6,10 +6,10 @@ require "fog/aws/cloud_formation"
 namespace :aws do
   AWS_DIR = "#{File.dirname(__FILE__)}/aws"
   BOOTSTRAP_FILE = "bootstrap.tar.gz"
-  STACK_NAME = "company-news"
+  STACK_NAME = "drupal-stack"
 
   directory BUILD_DIR
-
+  
   desc "creates the project's infrastructure in the Amazon cloud"
   task :provision => :upload_bootstrap_files do
     template_body = contents("#{AWS_DIR}/cloud_formation_template.erb")
