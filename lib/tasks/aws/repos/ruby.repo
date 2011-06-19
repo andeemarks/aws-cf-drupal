@@ -1,5 +1,0 @@
-[ruby]
-name=Ruby
-baseurl=http://repo.premiumhelp.eu/ruby/
-enabled=1
-gpgcheck=0
