@@ -1,5 +1,3 @@
-aws_access_key: "REPLACE ME!"
-aws_secret_access_key: "REPLACE ME!"
-aws_ssh_key_name: "REPLACE ME!"
-aws_s3_bucket_name: "REPLACE ME!"
-aws_ssh_key_file: "REPLACE ME!"
+cloudformation_stack_name: "[AWS-USERNAME]"
+aws_access_key: "[AWS-ACCESS-KEY]"
+aws_secret_access_key: "[AWS-SECRET-ACCESS-KEY]"
